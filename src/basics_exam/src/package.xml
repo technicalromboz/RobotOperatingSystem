@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>basics_exam</name>
+  <version>0.0.0</version>
+  <description>The basics_exam package</description>
+
+  <maintainer email="user@todo.todo">user</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <build_depend>message_generation</build_depend> <!-- Add this line -->
+  <exec_depend>message_runtime</exec_depend> <!-- Add this line -->
+
+  <export>
+  </export>
+</package>

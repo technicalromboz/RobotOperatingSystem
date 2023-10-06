@@ -1,0 +1,4 @@
+# DistanceMotion.srv
+---
+bool success        # A boolean indicating if the service was called successfully
+string distance     # An string indicating the distance moved by the drone in the x-axis
